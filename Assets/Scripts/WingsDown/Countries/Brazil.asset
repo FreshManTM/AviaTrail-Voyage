@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57aa0721029e665499bdc30d0daf051c, type: 3}
+  m_Name: Brazil
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 26f3909d2aac72c45976be5a67ef49fd, type: 3}
+  Road: {fileID: 21300000, guid: 4bb685363ed37724ea5626fac1805095, type: 3}
+  Bag: {fileID: 21300000, guid: 230ba76300e551244acbcaa6ae0858e9, type: 3}
+  Purse: {fileID: 21300000, guid: cdeedcf7af39e0149a0834e633b10524, type: 3}
+  Women: {fileID: 21300000, guid: dcf847a7beeed7147847efd622462261, type: 3}
+  Man: {fileID: 21300000, guid: 596ab135f653fd542a86e10c237df32e, type: 3}
+  Bird: {fileID: 21300000, guid: f350e8b039e702f4da19ebc4539f0632, type: 3}
+  Celebrity: {fileID: 21300000, guid: 25219d2059231bf4c8a5e9459b5673d6, type: 3}
+  Dog: {fileID: 21300000, guid: 958bf5948a32595418d9029892ac689c, type: 3}
+  Cat: {fileID: 21300000, guid: c886a33b6ba42554ba19edb4055399f0, type: 3}
