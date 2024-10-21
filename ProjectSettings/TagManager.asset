@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Obstacle
   - FinishLine
+  - PassTrigger
+  - Plane
+  - Chevron
   layers:
   - Default
   - TransparentFX

@@ -43,20 +43,28 @@ public class RoadSpawner : MonoBehaviour
     void SpawnRoads()
     {
         Vector2 spawnPos = Vector2.up;
-        for (int i = 0; i <= _tilesAmount; i++)
+        GameObject go;
+        int _tileNum = 0;
+
+        for (int i = 0; i < _tilesAmount + 2; i++)
         {
             spawnPos = Vector2.up * _spawnedAmount * _tileOffset;
-            GameObject go;
-            if(i == _tilesAmount)
+            //Spawn 2 first roads
+            if (i == 0 || i == 1)
             {
-                print(_roadPrefabs.Length);
-                go = Instantiate(_roadPrefabs[_roadPrefabs.Length - 1], spawnPos, Quaternion.identity, transform);
-
+                _tileNum = 0;
+            }
+            //spawn last road
+            else if (i == _tilesAmount + 1)
+            {
+                _tileNum = 1;
             }
             else
             {
-                go = Instantiate(_roadPrefabs[Random.Range(2, _roadPrefabs.Length - 1)], spawnPos, Quaternion.identity, transform);
+                _tileNum = Random.Range(2, _roadPrefabs.Length - 1);
             }
+
+            go = Instantiate(_roadPrefabs[_tileNum], spawnPos, Quaternion.identity, transform);
             _spawnedAmount++;
             go.GetComponent<RoadTile>().SetCountry(TEST_COUNTRY);
             //go.SetActive(false);
