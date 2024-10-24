@@ -53,12 +53,12 @@ public class RoadTile : MonoBehaviour
                     }
                 case "Dog":
                     {
-                        sprite = country.Dog;
+                        sprite = country.Barrel;
                         break;
                     }
                 case "Cat":
                     {
-                        sprite = country.Cat;
+                        sprite = country.Stone;
                         break;
                     }
             }

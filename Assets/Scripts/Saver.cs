@@ -6,6 +6,7 @@ using UnityEngine;
 public class Saver : MonoBehaviour
 {
     public static Saver Instance;
+    [SerializeField] Country _defaultCountry;
     string _filePath;
     PlayerData _playerData = new PlayerData();
 
@@ -30,6 +31,8 @@ public class Saver : MonoBehaviour
         }
         else
         {
+            _playerData.SetCountry = _defaultCountry;
+            _playerData.PurchasedCountries.Add(_defaultCountry);
             SaveInfo(_playerData);
         }
         return _playerData;

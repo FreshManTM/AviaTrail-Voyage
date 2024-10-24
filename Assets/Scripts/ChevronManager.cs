@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChevronManager : MonoBehaviour
 {
     public static ChevronManager Instance;
-    static int _chevrons;
+    public static int Chevrons;
 
     private void Awake()
     {
@@ -13,17 +13,21 @@ public class ChevronManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    public int GetChevrons()
+    {
+        return Chevrons;
+    }
     public void AddChevrons(int chevrons)
     {
-        _chevrons += chevrons;
+        Chevrons += chevrons;
         SaveChevrons();
     }
 
     public bool RemoveChevrons(int chevrons)
     {
-        if(_chevrons - chevrons > 0)
+        if(Chevrons - chevrons > 0)
         {
-            _chevrons -= chevrons;
+            Chevrons -= chevrons;
             SaveChevrons();
             return true;
         }
@@ -34,7 +38,7 @@ public class ChevronManager : MonoBehaviour
     void SaveChevrons()
     {
         PlayerData playerData = Saver.Instance.LoadInfo();
-        playerData.Chevrons = _chevrons;
+        playerData.Chevrons = Chevrons;
         Saver.Instance.SaveInfo(playerData);
     }
 }

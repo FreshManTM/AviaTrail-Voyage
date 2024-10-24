@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57aa0721029e665499bdc30d0daf051c, type: 3}
   m_Name: Japan
   m_EditorClassIdentifier: 
+  Cost: 0
   Background: {fileID: 21300000, guid: f8a8c469521142b48a1c764bb1a4ae72, type: 3}
   Road: {fileID: 21300000, guid: dfee45983fb89dd499e0359cc709848a, type: 3}
   Bag: {fileID: 21300000, guid: 0343d0b4efd4643448170716fcad2235, type: 3}
@@ -20,5 +21,6 @@ MonoBehaviour:
   Man: {fileID: 21300000, guid: c3119131d6e71134a83aa05f73acb53e, type: 3}
   Bird: {fileID: 21300000, guid: 299a7f06371a8024e98f79ddcbbb7813, type: 3}
   Celebrity: {fileID: 21300000, guid: 1c6a4669da7d0d5489e8455bf9e3c1d1, type: 3}
-  Dog: {fileID: 21300000, guid: 3869f94c14f0893418bead9d653ba49a, type: 3}
-  Cat: {fileID: 21300000, guid: eb1e189c3cfa0a74d855c85d3540b01a, type: 3}
+  Barrel: {fileID: 21300000, guid: 3869f94c14f0893418bead9d653ba49a, type: 3}
+  Stone: {fileID: 21300000, guid: eb1e189c3cfa0a74d855c85d3540b01a, type: 3}
+  Trash: {fileID: 21300000, guid: ece066725c94e1d499920f9f0309408c, type: 3}

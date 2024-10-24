@@ -1432,6 +1432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f529614cdb0b954aaea8c1efb826268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _defaultCountry: {fileID: 0}
 --- !u!4 &1012634864
 Transform:
   m_ObjectHideFlags: 0
@@ -3234,7 +3235,7 @@ MonoBehaviour:
   - {fileID: 5266820372829672309, guid: e1d29a8a6af4ff94ba208c1805a911ff, type: 3}
   - {fileID: 5266820372829672309, guid: d42dbb3797a57844a9286a2f284651fa, type: 3}
   - {fileID: 5266820372829672309, guid: 2bac5c218db403f408988960f55664f1, type: 3}
-  TEST_COUNTRY: {fileID: 11400000, guid: 64f64a339cf344c478caeec5b1f67e61, type: 2}
+  TEST_COUNTRY: {fileID: 11400000, guid: 9f9da61c46a09b04299a98bb02b8409c, type: 2}
   _tiles: []
   _speed: 5
 --- !u!4 &8942127902238996733

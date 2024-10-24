@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class ShopItem : MonoBehaviour
 {
     [SerializeField] Country _country;
-    [SerializeField] int _cost;
     [SerializeField] TextMeshProUGUI _nameText;
     [SerializeField] TextMeshProUGUI _purchaseText;
     [SerializeField] TextMeshProUGUI _priceText;
@@ -18,38 +17,39 @@ public class ShopItem : MonoBehaviour
     [SerializeField] Image _stoneImage;
     PlayerData _data;
 
-    private void Start()
+    private void OnEnable()
     {
-        _data = Saver.Instance.LoadInfo();
-        if (!_data.SetCountry)
-        {
-            _data.SetCountry = _country;
-        }
+        if (_data == null)
+            _data = Saver.Instance.LoadInfo();
         SetImages();
     }
 
-    void SetImages()
+    public void BuyUseButton()
+    {
+        if (_data.PurchasedCountries.Contains(_country))
+        {
+            _data.SetCountry = _country;
+            
+            _priceText.gameObject.SetActive(false);
+            _purchaseText.gameObject.SetActive(true);
+            _purchaseText.text = "Used";
+        }
+        else
+        {
+            if (ChevronManager.Instance.RemoveChevrons(_country.Cost))
+            {
+
+            }
+        }
+    }
+
+    public void SetImages()
     {
         _nameText.text = _country.name;
         _backgroundImage.sprite = _country.Road;
         _bagImage.sprite = _country.Bag;
-        _barrelImage.sprite = _country.Cat;
-        _stoneImage.sprite = _country.Dog;
-
-        if (_data.PurchasedCountries != null && _data.PurchasedCountries.Contains(_country.name))
-        {
-            _purchaseText.text = "Use";
-        }
-        else
-        {
-            _purchaseText.gameObject.SetActive(false);
-            _priceText.gameObject.SetActive(true);
-            _priceText.text = "Buy " + _cost;
-        }
-        if(_data.SetCountry.name == _country.name)
-        {
-            _purchaseText.text = "Used";
-        }
+        _barrelImage.sprite = _country.Stone;
+        _stoneImage.sprite = _country.Barrel;
     }
 
 }

@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57aa0721029e665499bdc30d0daf051c, type: 3}
   m_Name: Scotland
   m_EditorClassIdentifier: 
-  Background: {fileID: 21300000, guid: 7ce5c3dabc5b1ba44b6dbd061be912b6, type: 3}
+  Cost: 0
+  Background: {fileID: 21300000, guid: 945294bdf7b6f0b47ab2865c0eb4ddba, type: 3}
   Road: {fileID: 21300000, guid: 43d42a6ec7d0a574daa13369f964125f, type: 3}
-  Bag: {fileID: 21300000, guid: eca7f939ee028a140ab21fd04183b3b5, type: 3}
-  Purse: {fileID: 21300000, guid: 0c6c9c0753dd90c4f844ea3b7ba81de8, type: 3}
-  Women: {fileID: 21300000, guid: 133ba66055cb0cb4084af97f9d7b11bf, type: 3}
-  Man: {fileID: 21300000, guid: 4bd38c64929f7ac4e9fdf024e9df0c57, type: 3}
-  Bird: {fileID: 21300000, guid: 3e4bc895810717e4b9fb8433f0c957fc, type: 3}
-  Celebrity: {fileID: 21300000, guid: 30b1b4870ca580d4d897a0d60d2dc747, type: 3}
-  Dog: {fileID: 21300000, guid: adee4ed23d68e1244a821cfec29bc089, type: 3}
-  Cat: {fileID: 21300000, guid: 52d0ae0bc5ce79c49aa4778c8528ba79, type: 3}
+  Bag: {fileID: 21300000, guid: 6c890980f558ad9488978adc360079db, type: 3}
+  Purse: {fileID: 21300000, guid: 0e0455cfdf9f6684e9ae35cb4c1a7bb4, type: 3}
+  Women: {fileID: 21300000, guid: 4a2f78b6a74742a4096299cf5c6ace8a, type: 3}
+  Man: {fileID: 21300000, guid: 6593dd09979cc654181c640d4addc2bd, type: 3}
+  Bird: {fileID: 21300000, guid: a308e9f22aec70246b0fcad5107ada3e, type: 3}
+  Celebrity: {fileID: 21300000, guid: dbb4ec97b9a180b469536b1159668ad4, type: 3}
+  Barrel: {fileID: 21300000, guid: 1e267ef4653b68d4c98a538eb2c72a3b, type: 3}
+  Stone: {fileID: 21300000, guid: 1ee6a826a3b493b4585ae2dd90a1131e, type: 3}
+  Trash: {fileID: 21300000, guid: ce1bdb97904663f459b996094357de4e, type: 3}

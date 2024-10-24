@@ -7,6 +7,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName ="Country", menuName = "CountryImages")]
 public class Country : ScriptableObject
 {
+    public int Cost;
     public Sprite Background;
     public Sprite Road;
     public Sprite Bag;
@@ -15,6 +16,7 @@ public class Country : ScriptableObject
     public Sprite Man;
     public Sprite Bird;
     public Sprite Celebrity;
-    public Sprite Dog;
-    public Sprite Cat;
+    public Sprite Barrel;
+    public Sprite Stone;
+    public Sprite Trash;
 }

@@ -7,8 +7,8 @@ using UnityEngine;
 public class PlayerData 
 {
     public int Chevrons;
-    public int PoinRecord;
+    public int PointRecord;
     public int[] LevelStars;
     public Country SetCountry;
-    public string[] PurchasedCountries;
+    public List<Country> PurchasedCountries;
 }
