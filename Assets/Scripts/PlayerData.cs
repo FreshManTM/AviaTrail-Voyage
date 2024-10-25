@@ -8,7 +8,8 @@ public class PlayerData
 {
     public int Chevrons;
     public int PointRecord;
-    public int[] LevelStars;
+    public int CurrentLevel;
+    public List<int> LevelStars;
     public Country SetCountry;
     public List<Country> PurchasedCountries;
 }

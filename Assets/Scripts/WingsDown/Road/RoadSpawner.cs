@@ -77,7 +77,9 @@ public class RoadSpawner : MonoBehaviour
 
     void MoveRoads()
     {
-        transform.position += Vector3.down * _speed * Time.deltaTime;
+        var speed = _speed + (_speedIncrement * Saver.Instance.LoadInfo().CurrentLevel);
+        print(speed);
+        transform.position += Vector3.down * speed * Time.deltaTime;
         //transform.position = Vector2.MoveTowards(transform.position, Vector2.down * _tilesAmount * _tileOffset, _speed * Time.deltaTime);
     }
 }

@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,13 +15,13 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject _winPanel;
     [SerializeField] GameObject[] _stars;
 
-    PlayerData _playerData;
+    PlayerData _data;
     int _points;
     int _chevrons;
     int _addPoints = 10;
     private void Start()
     {
-        _playerData = Saver.Instance.LoadInfo();
+        _data = Saver.Instance.LoadInfo();
     }
     public void AddChevrons(int chevrons)
     {
@@ -45,12 +47,28 @@ public class GameController : MonoBehaviour
         _winPanel.SetActive(true);
         _winPointsText.text = "Result: " + _points;
         _winChevronsText.text = _chevrons.ToString();
-        EnableStars(collides);
+        
+        
+        if(_data.PointRecord < _points)
+        {
+            _data.PointRecord = _points;
+        }
 
+        try
+        {
+            _data.LevelStars[_data.CurrentLevel - 1] = EnableStars(collides);
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            print("exception " + _data.CurrentLevel);
+            _data.LevelStars.Add(EnableStars(collides));
+        }
+
+        Saver.Instance.SaveInfo(_data);
         ChevronManager.Instance.AddChevrons(_chevrons);
     }
 
-    private void EnableStars(int collides)
+    private int EnableStars(int collides)
     {
         int starsCount = 0;
         if (collides > 5)
@@ -72,6 +90,7 @@ public class GameController : MonoBehaviour
         {
             _stars[i].SetActive(true);
         }
+        return starsCount;
     }
 
     public void ChangeTimeScale(int scale = 0)
@@ -80,6 +99,7 @@ public class GameController : MonoBehaviour
     }
     public void MenuButton()
     {
+        ChangeTimeScale(1);
         SceneManager.LoadScene(0);
     }
 }
