@@ -11,8 +11,7 @@ public class ChevronManager : MonoBehaviour
     {
         Instance = this;
         DontDestroyOnLoad(gameObject);
-
-        Chevrons = 1000;
+        Chevrons = Saver.Instance.LoadInfo().Chevrons;
     }
 
     public int GetChevrons()

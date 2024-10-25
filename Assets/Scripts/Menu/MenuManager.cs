@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour
 {
     public static MenuManager Instance;
     [SerializeField] Image _backgroundImage;
+    [SerializeField] TextMeshProUGUI _countryText;
     [SerializeField] TextMeshProUGUI[] _chevronText;
     [SerializeField] Country[] _countries;
     [SerializeField] ShopItem[] _shopItems;
@@ -26,7 +27,7 @@ public class MenuManager : MonoBehaviour
         _chevronManager = ChevronManager.Instance;
         _data = Saver.Instance.LoadInfo();
         _backgroundImage.sprite = _data.SetCountry.Background;
-
+        _countryText.text = _data.SetCountry.name;
         SetShopItems();
     }
 
@@ -36,6 +37,11 @@ public class MenuManager : MonoBehaviour
         {
             t.text = _chevronManager.GetChevrons().ToString();
         }
+    }
+
+    public void ToggleAnimButton(Animator animator)
+    {
+        animator.SetBool("On", !animator.GetBool("On"));
     }
 
     public void PlayButton()
@@ -54,7 +60,10 @@ public class MenuManager : MonoBehaviour
                 _currentItem.SetUsedText();
                 _previousItem.SetUseText();
                 _data = Saver.Instance.LoadInfo();
+
                 _backgroundImage.sprite = _data.SetCountry.Background;
+                _countryText.text = _data.SetCountry.name;
+
                 return;
             }
         }
