@@ -215,7 +215,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5473499122024679255}
+        m_TargetAssemblyTypeName: ShopItem, Assembly-CSharp
+        m_MethodName: BuyUseButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2687986352939694012
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +982,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _country: {fileID: 11400000, guid: ecfa36e610776f34ea4e511d1a38f047, type: 2}
-  _cost: 0
   _nameText: {fileID: 2211946109701939547}
   _purchaseText: {fileID: 4958834798086229314}
   _priceText: {fileID: 8692579063256262456}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57aa0721029e665499bdc30d0daf051c, type: 3}
   m_Name: Scotland
   m_EditorClassIdentifier: 
-  Cost: 0
+  Cost: 700
   Background: {fileID: 21300000, guid: 945294bdf7b6f0b47ab2865c0eb4ddba, type: 3}
   Road: {fileID: 21300000, guid: 43d42a6ec7d0a574daa13369f964125f, type: 3}
   Bag: {fileID: 21300000, guid: 6c890980f558ad9488978adc360079db, type: 3}

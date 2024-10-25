@@ -11,6 +11,8 @@ public class ChevronManager : MonoBehaviour
     {
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        Chevrons = 1000;
     }
 
     public int GetChevrons()

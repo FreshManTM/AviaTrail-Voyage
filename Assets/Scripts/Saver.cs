@@ -25,6 +25,7 @@ public class Saver : MonoBehaviour
 
     public PlayerData LoadInfo()
     {
+
         if (File.Exists(_filePath))
         {
             _playerData = JsonUtility.FromJson<PlayerData>(File.ReadAllText(_filePath));
@@ -32,6 +33,7 @@ public class Saver : MonoBehaviour
         else
         {
             _playerData.SetCountry = _defaultCountry;
+            _playerData.PurchasedCountries = new List<Country>();
             _playerData.PurchasedCountries.Add(_defaultCountry);
             SaveInfo(_playerData);
         }

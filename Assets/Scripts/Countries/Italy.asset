@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57aa0721029e665499bdc30d0daf051c, type: 3}
   m_Name: Italy
   m_EditorClassIdentifier: 
-  Cost: 0
+  Cost: 200
   Background: {fileID: 21300000, guid: fefc4ae34bdaece48a4377bd649a058f, type: 3}
   Road: {fileID: 21300000, guid: e389d4d353bdf5e41b648d7222869699, type: 3}
   Bag: {fileID: 21300000, guid: c60c81bdee44ca34bb2071ec7ed1e7e4, type: 3}

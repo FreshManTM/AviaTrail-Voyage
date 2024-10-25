@@ -17,39 +17,64 @@ public class ShopItem : MonoBehaviour
     [SerializeField] Image _stoneImage;
     PlayerData _data;
 
-    private void OnEnable()
+    private void Start()
     {
-        if (_data == null)
-            _data = Saver.Instance.LoadInfo();
-        SetImages();
+       // SetImages();
     }
 
     public void BuyUseButton()
     {
+        _data = Saver.Instance.LoadInfo();
+
+        if (_data.SetCountry == _country)
+            return;
+        
         if (_data.PurchasedCountries.Contains(_country))
         {
             _data.SetCountry = _country;
-            
-            _priceText.gameObject.SetActive(false);
-            _purchaseText.gameObject.SetActive(true);
-            _purchaseText.text = "Used";
+            Saver.Instance.SaveInfo(_data);
+            MenuManager.Instance.ItemPurchased(this);
+
         }
         else
         {
             if (ChevronManager.Instance.RemoveChevrons(_country.Cost))
             {
-
+                _data.PurchasedCountries.Add(_country);
+                _data.SetCountry = _country;
+                Saver.Instance.SaveInfo(_data);
+                MenuManager.Instance.ItemPurchased(this);
             }
         }
     }
 
-    public void SetImages()
+    public void SetCountry(Country country)
     {
+        _country = country;
         _nameText.text = _country.name;
         _backgroundImage.sprite = _country.Road;
         _bagImage.sprite = _country.Bag;
         _barrelImage.sprite = _country.Stone;
         _stoneImage.sprite = _country.Barrel;
+    }
+
+    public void SetPriceText()
+    {
+        _purchaseText.gameObject.SetActive(false);
+        _priceText.gameObject.SetActive(true);
+        _priceText.text = "Buy " + _country.Cost;
+    }
+
+    public void SetUsedText()
+    {
+        _priceText.gameObject.SetActive(false);
+        _purchaseText.gameObject.SetActive(true);
+        _purchaseText.text = "Used";
+    }
+
+    public void SetUseText()
+    {
+        _purchaseText.text = "Use";
     }
 
 }

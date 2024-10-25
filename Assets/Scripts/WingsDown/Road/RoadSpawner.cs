@@ -17,6 +17,7 @@ public class RoadSpawner : MonoBehaviour
 
     private void Start()
     {
+        TEST_COUNTRY = Saver.Instance.LoadInfo().SetCountry;
         SpawnRoads();
     }
 

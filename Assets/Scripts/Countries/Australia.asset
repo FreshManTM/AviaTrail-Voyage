@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57aa0721029e665499bdc30d0daf051c, type: 3}
   m_Name: Australia
   m_EditorClassIdentifier: 
-  Cost: 0
+  Cost: 600
   Background: {fileID: 21300000, guid: 7ce5c3dabc5b1ba44b6dbd061be912b6, type: 3}
   Road: {fileID: 21300000, guid: bdc7d8ec07bc2034499f32a68d5205b4, type: 3}
   Bag: {fileID: 21300000, guid: eca7f939ee028a140ab21fd04183b3b5, type: 3}
