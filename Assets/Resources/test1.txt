@@ -1,0 +1,88 @@
+What's Your Perfect Aircraft?
+
+Questions
+What is your ideal flight experience?
+A) Smooth and relaxing (1 point)
+B) Fast and thrilling (3 points)
+C) Adventurous and rugged (2 points)
+D) Luxurious and comfortable (4 points)
+What is your favorite weather for flying?
+A) Clear blue skies (4 points)
+B) Slightly cloudy (2 points)
+C) Stormy and challenging (3 points)
+D) Sunny with a gentle breeze (1 point)
+What type of flying do you enjoy the most?
+A) Long-distance travel (4 points)
+B) Aerobatics and stunts (3 points)
+C) Short scenic flights (1 point)
+D) Cargo and logistics (2 points)
+What’s your priority when choosing an aircraft?
+A) Speed (3 points)
+B) Comfort (4 points)
+C) Versatility (2 points)
+D) Fuel efficiency (1 point)
+How do you feel about navigation?
+A) I prefer GPS and technology (3 points)
+B) I enjoy traditional maps and compasses (2 points)
+C) I love exploring without a plan (1 point)
+D) I trust my instincts and experience (4 points)
+What inspires you about aviation?
+A) The engineering and technology (4 points)
+B) The freedom of flight (1 point)
+C) The thrill of adventure (3 points)
+D) The ability to travel the world (2 points)
+How do you feel about turbulence?
+A) It makes flying exciting (3 points)
+B) I don’t mind a little shake (2 points)
+C) I prefer smooth flights (1 point)
+D) I see it as a challenge (4 points)
+What’s your favorite in-flight entertainment?
+A) Movies and shows (4 points)
+B) Music and podcasts (2 points)
+C) Reading a good book (1 point)
+D) Chatting with fellow passengers (3 points)
+What’s your preferred aircraft size?
+A) Small and nimble (1 point)
+B) Medium-sized for versatility (2 points)
+C) Large and luxurious (4 points)
+D) Giant cargo planes (3 points)
+What role do you envision for yourself in aviation?
+A) Pilot (4 points)
+B) Engineer or designer (3 points)
+C) Air traffic controller (2 points)
+D) Aviation enthusiast (1 point)
+Which of these environments excites you the most?
+A) Mountain ranges (3 points)
+B) Urban landscapes (4 points)
+C) Open ocean (1 point)
+D) Countryside (2 points)
+How do you prefer to plan your flights?
+A) Detailed itineraries (4 points)
+B) General ideas with flexibility (2 points)
+C) Spontaneous decisions (1 point)
+D) Guided tours (3 points)
+What kind of engine do you prefer?
+A) Jet engines for speed (3 points)
+B) Piston engines for classic feel (1 point)
+C) Turboprops for versatility (2 points)
+D) Electric engines for sustainability (4 points)
+How do you feel about flying at night?
+A) I love the night sky views (4 points)
+B) It's a bit intimidating (1 point)
+C) It adds an element of excitement (3 points)
+D) I prefer daylight flying (2 points)
+What’s your ideal destination after a flight?
+A) A bustling city (4 points)
+B) A quiet beach (1 point)
+C) A remote mountain cabin (2 points)
+D) A historic site (3 points)
+
+Results:
+15-25 points: Light and Nimble Aircraft
+You prefer a smaller, agile aircraft that allows for quick maneuvers and exciting adventures.
+26-35 points: Classic and Versatile Aircraft
+You enjoy a well-rounded aircraft that can handle various flying conditions and situations, offering a balance of comfort and performance.
+36-45 points: Luxury and Comfort Aircraft
+You prioritize comfort and luxury in your flying experience, seeking an aircraft that provides a smooth and enjoyable journey.
+46-60 points: Powerful and Advanced Aircraft
+You lean towards high-performance aircraft designed for speed and capability, eager for a thrilling and advanced flying experience.
