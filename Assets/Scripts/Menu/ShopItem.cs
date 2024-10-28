@@ -15,12 +15,9 @@ public class ShopItem : MonoBehaviour
     [SerializeField] Image _bagImage;
     [SerializeField] Image _barrelImage;
     [SerializeField] Image _stoneImage;
+    [SerializeField] AudioSource _purchaseSound;
+    [SerializeField] AudioSource _useSound;
     PlayerData _data;
-
-    private void Start()
-    {
-       // SetImages();
-    }
 
     public void BuyUseButton()
     {
@@ -31,15 +28,16 @@ public class ShopItem : MonoBehaviour
         
         if (_data.PurchasedCountries.Contains(_country))
         {
+            _useSound.Play();
             _data.SetCountry = _country;
             Saver.Instance.SaveInfo(_data);
             MenuManager.Instance.ItemPurchased(this);
-
         }
         else
         {
             if (ChevronManager.Instance.RemoveChevrons(_country.Cost))
             {
+                _purchaseSound.Play();
                 _data.PurchasedCountries.Add(_country);
                 _data.SetCountry = _country;
                 Saver.Instance.SaveInfo(_data);

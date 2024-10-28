@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -13,6 +14,8 @@ public class MenuManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI[] _chevronText;
     [SerializeField] Country[] _countries;
     [SerializeField] ShopItem[] _shopItems;
+    [SerializeField] AudioSource _buttonClickSound;
+    [SerializeField] AudioSource _musicSound;
 
     ChevronManager _chevronManager;
     PlayerData _data;
@@ -41,9 +44,38 @@ public class MenuManager : MonoBehaviour
 
     public void ToggleAnimButton(Animator animator)
     {
-        animator.SetBool("On", !animator.GetBool("On"));
-    }
+        if (animator.GetBool("On"))
+        {
+            animator.SetBool("On", false);
+        }
+        else
+        {
+            animator.SetBool("On", true);
+        }
 
+    }
+    public void SoundButton(AudioSource sound)
+    {
+        if (sound.mute)
+        {
+            sound.mute = false;
+        }
+        else
+        {
+            sound.mute = true;
+        }
+    }
+    public void MusicButton(AudioSource sound)
+    {
+        if (sound.isPlaying)
+        {
+            sound.Pause();
+        }
+        else
+        {
+            sound.Play();
+        }
+    }
     public void PlayButton()
     {
         SceneManager.LoadScene(1);
