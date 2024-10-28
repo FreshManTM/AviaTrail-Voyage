@@ -1,11 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
 public class MenuManager : MonoBehaviour
 {
     public static MenuManager Instance;
@@ -42,6 +38,10 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    public void AddImage()
+    {
+        
+    }
     public void ToggleAnimButton(Animator animator)
     {
         if (animator.GetBool("On"))
