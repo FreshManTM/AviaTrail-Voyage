@@ -1,0 +1,88 @@
+What Type of Pilot Are You?
+
+Questions:
+How do you prefer to start your day?
+A) Reviewing a detailed flight plan (4)
+B) Checking the weather and adapting as needed (3)
+C) Grabbing a coffee and improvising (2)
+D) Going with the flow, no rush (1)
+What’s your ideal flight route?
+A) Long international flights (4)
+B) Domestic flights with scenic views (3)
+C) Short trips with multiple stops (2)
+D) Quick hops between local airports (1)
+What type of aircraft excites you the most?
+A) Large commercial jet (4)
+B) Private jet (3)
+C) Helicopter (2)
+D) Single-engine propeller plane (1)
+How do you handle in-flight turbulence?
+A) Remain calm and follow procedures (4)
+B) Double-check everything and reassure passengers (3)
+C) Use it as a learning experience (2)
+D) Take it as part of the adventure (1)
+How do you feel about flying at night?
+A) Confident, I prefer night flights (4)
+B) I can handle it with proper preparation (3)
+C) I’d rather fly during the day, but I can manage (2)
+D) I avoid it whenever possible (1)
+What’s your approach to flight planning?
+A) Thorough and detailed, leaving no room for error (4)
+B) Flexible, with attention to key factors (3)
+C) I like to be prepared but also ready to adjust (2)
+D) I prefer a loose plan and adapt in the air (1)
+What do you enjoy most about being a pilot?
+A) The responsibility and leadership (4)
+B) The challenge of navigation (3)
+C) The freedom and flexibility (2)
+D) The views and excitement (1)
+How do you handle high-pressure situations?
+A) By following established protocols (4)
+B) Keeping calm and thinking logically (3)
+C) Assessing the situation and making quick decisions (2)
+D) Staying cool and relying on instincts (1)
+What’s your ideal co-pilot?
+A) Someone highly experienced and precise (4)
+B) A confident, adaptable team player (3)
+C) Someone laid-back but capable (2)
+D) Someone with a sense of humor (1)
+How do you deal with unexpected weather changes?
+A) Adjust the route and follow strict protocol (4)
+B) Make quick decisions based on training (3)
+C) Assess the situation and proceed cautiously (2)
+D) Go with my gut instincts (1)
+What’s your attitude toward flight training?
+A) Training is essential and should be ongoing (4)
+B) Regular training is important for skill development (3)
+C) I train when necessary but prefer hands-on experience (2)
+D) Training is useful but too much can be restrictive (1)
+Which in-flight responsibility do you value most?
+A) Ensuring passenger safety (4)
+B) Managing navigation and communication (3)
+C) Maintaining smooth flight operations (2)
+D) Providing an enjoyable flight experience (1)
+What’s your favorite aviation technology?
+A) Advanced autopilot systems (4)
+B) Navigation and GPS tools (3)
+C) Communication systems (2)
+D) Weather radar and sensors (1)
+How do you approach airport landings?
+A) Precision and planning are everything (4)
+B) I like to stay flexible and adapt as needed (3)
+C) I trust my instincts for the final approach (2)
+D) I make sure to keep things smooth and steady (1)
+What’s your flying style?
+A) Structured and methodical (4)
+B) Adaptive and efficient (3)
+C) Laid-back but confident (2)
+D) Spontaneous and adventurous (1)
+
+Results:
+15-25 Points: Recreational Pilot
+You enjoy the thrill and freedom of flying but prefer to keep things casual and relaxed. You might take a few short trips or enjoy flying for the views and excitement, but you aren’t tied to rigorous schedules or complex routes.
+26-35 Points: Private Jet Pilot
+You value efficiency, luxury, and precision in your flying. You enjoy navigating the skies with flexibility and a balance between comfort and control, likely flying high-profile passengers or taking scenic trips in style.
+36-45 Points: Helicopter Pilot
+You’re adaptable, quick-thinking, and thrive in challenging environments. Flying low and fast, you enjoy the dynamic nature of helicopter piloting, always ready to handle unexpected situations and tight landings.
+46-60 Points: Commercial Airline Pilot 
+You are highly disciplined, responsible, and committed to following protocols. With a structured approach to flying, you thrive on long, complex routes and enjoy ensuring the safety and comfort of passengers on large commercial jets. Your precision makes you ideal for handling advanced aviation technology and high-pressure situations.
