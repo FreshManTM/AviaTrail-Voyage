@@ -80,7 +80,7 @@ public class MenuManager : MonoBehaviour
                 _currentItem = _shopItems[i];
                 _shopItems[i].SetUsedText();
             }
-            else if (_data.PurchasedCountries.Contains(_countries[i]))
+            else if (_data.PurchasedCountries.Contains(_countries[i]) || i == 0)
             {
                 _shopItems[i].SetUseText();
             }
