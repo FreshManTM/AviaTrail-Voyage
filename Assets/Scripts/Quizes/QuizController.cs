@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
@@ -54,7 +55,8 @@ public class QuizController : MonoBehaviour
         }
         else
         {
-            print("end quiz");
+            _score += _quiz.Questions[_questionNum-1].Answers[answerNum].Points;
+
             _quizpanel.SetActive(false);
             _resultPanel.SetActive(true);
 
