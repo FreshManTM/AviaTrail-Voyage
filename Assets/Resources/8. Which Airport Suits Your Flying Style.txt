@@ -1,0 +1,87 @@
+Which Airport Suits Your Flying Style?
+
+Questions
+When you arrive at an airport, you first look for...
+A) The fastest route to your gate. (4 points)
+B) A lounge to relax before the flight. (3 points)
+C) Shops and restaurants to explore. (2 points)
+D) An information desk to plan your route. (1 point)
+How do you prefer to spend your time at the airport?
+A) Getting work done before boarding. (4 points)
+B) Relaxing with a good book or music. (3 points)
+C) Trying out the local cuisine. (2 points)
+D) Socializing with fellow travelers. (1 point)
+What’s your ideal airport atmosphere?
+A) Fast-paced and efficient. (4 points)
+B) Calm and serene with plenty of seating. (3 points)
+C) Lively and vibrant with lots of activity. (2 points)
+D) Cozy and inviting, like a small local airport. (1 point)
+How do you feel about airport security?
+A) I appreciate efficiency and quick processing. (4 points)
+B) I like to take my time and not feel rushed. (3 points)
+C) I’m okay with it as long as it’s well organized. (2 points)
+D) I find it stressful and wish it could be smoother. (1 point)
+Your ideal departure time is...
+A) Early morning to make the most of the day. (4 points)
+B) Midday for a relaxed start. (3 points)
+C) Late afternoon to enjoy breakfast at home. (2 points)
+D) Evening flights to maximize my day at the destination. (1 point)
+What type of boarding process do you prefer?
+A) Priority boarding for efficiency. (4 points)
+B) Open boarding to find a good seat. (3 points)
+C) Group boarding to make it more social. (2 points)
+D) Boarding by zones for a structured approach. (1 point)
+Your ideal airport food options include...
+A) Fast, healthy snacks for a quick bite. (4 points)
+B) Sit-down restaurants for a leisurely meal. (3 points)
+C) Local food stalls to experience regional cuisine. (2 points)
+D) Cafes and coffee shops for a cozy break. (1 point)
+How do you feel about long layovers?
+A) They’re a great opportunity to explore the airport. (4 points)
+B) I prefer shorter layovers to get to my destination faster. (3 points)
+C) They can be enjoyable if I can leave the airport. (2 points)
+D) I dislike them and find them tedious. (1 point)
+When traveling, you usually pack...
+A) Lightly for quick and easy mobility. (4 points)
+B) Strategically to ensure comfort and convenience. (3 points)
+C) With extras for any occasion that might arise. (2 points)
+D) Heavily because I like to be prepared for anything. (1 point)
+Your favorite airport feature is...
+A) Fast Wi-Fi to stay connected. (4 points)
+B) Comfortable lounges to relax in. (3 points)
+C) Unique shops for souvenirs and gifts. (2 points)
+D) Art exhibits or cultural displays to enjoy. (1 point)
+How do you feel about airport delays?
+A) They happen; I just make the best of it. (4 points)
+B) I prefer to have a plan B to occupy my time. (3 points)
+C) I find them frustrating but try to stay positive. (2 points)
+D) I get annoyed and wish for more efficient operations. (1 point)
+What’s your ideal transportation to the airport?
+A) A private car for comfort and convenience. (4 points)
+B) Public transport to save money and avoid parking. (3 points)
+C) A taxi or rideshare for quick access. (2 points)
+D) A friend or family member dropping me off. (1 point)
+Your airport shopping style is...
+A) I make a beeline for what I need. (4 points)
+B) I enjoy browsing and finding unique items. (3 points)
+C) I look for gifts and souvenirs for others. (2 points)
+D) I avoid shopping altogether if I can. (1 point)
+How do you prefer to board your flight?
+A) First to get settled in. (4 points)
+B) Last to avoid the rush. (3 points)
+C) Whenever my zone is called, no matter. (2 points)
+D) I like to board with my group or family. (1 point)
+Your airport security tip is...
+A) Be organized and prepared to go through quickly. (4 points)
+B) Stay calm and take your time. (3 points)
+C) Chat with the staff to ease any tension. (2 points)
+D) Follow the crowd and hope for the best. (1 point)
+Results:
+15-25 points: The Efficient Airport
+You thrive in fast-paced environments and prefer airports that prioritize efficiency and speed. You value getting to your gate quickly and having streamlined experiences.
+26-35 points: The Relaxed Traveler
+You enjoy a balance of efficiency and relaxation. You appreciate comfortable spaces to unwind and like to enjoy your time in the airport without feeling rushed.
+36-45 points: The Social Explorer
+You value social interactions and experiences while traveling. You enjoy vibrant airports with lots of activity, places to eat, and opportunities to meet new people.
+46-60 points: The Adventurous Navigator
+You seek unique experiences in every part of your journey, including the airport. You appreciate exploring new places and finding unexpected gems along the way.

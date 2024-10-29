@@ -1,0 +1,87 @@
+﻿Are You a Day or Night Flyer?
+
+Questions
+When do you prefer to book your flights?
+A) Early morning. (4 points)
+B) Afternoon. (3 points)
+C) Evening. (2 points)
+D) Late night. (1 point)
+How do you feel about flying during the day?
+A) I love it; the views are amazing! (4 points)
+B) It’s okay; I enjoy watching the landscape. (3 points)
+C) I prefer to keep the shades closed. (2 points)
+D) I’d rather fly at night when it’s quieter. (1 point)
+What do you do during a daytime flight?
+A) Take photos of the scenery. (4 points)
+B) Read or work on something. (3 points)
+C) Listen to music and relax. (2 points)
+D) Sleep as much as possible. (1 point)
+How do you feel about flying at night?
+A) I love the calmness and stars. (4 points)
+B) I enjoy the peace and quiet. (3 points)
+C) I don’t like it; it feels too dark. (2 points)
+D) I prefer to avoid night flights altogether. (1 point)
+What’s your preferred method of dealing with jet lag?
+A) Adjusting my sleep schedule beforehand. (4 points)
+B) Taking short naps when I arrive. (3 points)
+C) Drinking lots of water to stay awake. (2 points)
+D) Just powering through it. (1 point)
+How do you prefer to plan your travel itinerary?
+A) Schedule activities during the day. (4 points)
+B) Balance between day and night activities. (3 points)
+C) Prefer evening events and late-night outings. (2 points)
+D) Keep it spontaneous, especially at night. (1 point)
+What’s your ideal time for takeoff?
+A) Dawn, when the sun rises. (4 points)
+B) Midday for smooth travels. (3 points)
+C) Dusk for a beautiful sunset view. (2 points)
+D) Late night, when everything is calm. (1 point)
+How do you feel about airline meals during the flight?
+A) I love them, especially during lunch flights! (4 points)
+B) They’re okay; I can eat anytime. (3 points)
+C) I prefer snacks over meals. (2 points)
+D) I’d rather eat before or after the flight. (1 point)
+What kind of scenery do you enjoy while flying?
+A) Bright landscapes and cities during the day. (4 points)
+B) Sunset views as the day ends. (3 points)
+C) Stars and the moon during the night. (2 points)
+D) I prefer not to look out the window. (1 point)
+How do you prefer to spend your time in the airport before a flight?
+A) Exploring shops and cafes during the day. (4 points)
+B) Relaxing and enjoying the ambiance. (3 points)
+C) Waiting in a quiet corner. (2 points)
+D) Napping until it’s time to board. (1 point)
+How often do you find yourself taking red-eye flights?
+A) Frequently; I love them! (1 point)
+B) Sometimes; they can be convenient. (2 points)
+C) Rarely; I prefer to fly during the day. (3 points)
+D) Never; I avoid them at all costs. (4 points)
+What’s your favorite time zone to fly to?
+A) One that allows for morning arrivals. (4 points)
+B) I prefer afternoon or early evening. (3 points)
+C) I like late-night arrivals. (2 points)
+D) I enjoy flexible hours regardless of time zone. (1 point)
+How do you handle in-flight entertainment during a daytime flight?
+A) I watch movies or shows. (4 points)
+B) I read books or articles. (3 points)
+C) I listen to podcasts or music. (2 points)
+D) I try to sleep through it. (1 point)
+What’s your ideal environment for flying?
+A) Bright, sunny, and clear skies. (4 points)
+B) Overcast, cozy, and calm. (3 points)
+C) Starry nights with a peaceful atmosphere. (2 points)
+D) It doesn’t matter; I’m okay with anything. (1 point)
+How do you feel when you land after a flight?
+A) Energized and ready to explore! (4 points)
+B) A bit tired but excited to be there. (3 points)
+C) Relieved and ready to sleep. (2 points)
+D) Just happy to be on solid ground. (1 point)
+Results:
+15-25 points: Night Owl Flyer
+You thrive in the calmness of night flights and prefer the tranquility that comes with flying after dark. You enjoy peaceful skies and may find evening travel more relaxing.
+26-35 points: Daytime Explorer
+You’re a fan of day flights, appreciating the views and activities during the day. You enjoy seeing the landscape from above and prefer to land in daylight.
+36-45 points: Flexible Traveler
+You’re adaptable and can enjoy flying at any time. You appreciate both day and night flights for their unique experiences and are comfortable with varying schedules.
+46-60 points: Spontaneous Adventurer
+You embrace both day and night travel, often booking flights based on the best deals or opportunities. Your spontaneity allows you to enjoy the thrill of flying at any hour.

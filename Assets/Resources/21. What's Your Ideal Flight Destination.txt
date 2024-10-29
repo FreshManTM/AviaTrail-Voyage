@@ -1,0 +1,87 @@
+What's Your Ideal Flight Destination?
+
+Questions
+What type of climate do you prefer?
+A) Warm and sunny. (4 points)
+B) Cool and breezy. (3 points)
+C) Mild and comfortable. (2 points)
+D) Cold and snowy. (1 point)
+What activities excite you the most?
+A) Exploring nature and hiking. (4 points)
+B) Visiting museums and cultural sites. (3 points)
+C) Relaxing on the beach. (2 points)
+D) Skiing and winter sports. (1 point)
+What type of scenery do you find most appealing?
+A) Lush mountains and forests. (4 points)
+B) Historic cities and architecture. (3 points)
+C) Serene beaches and clear waters. (2 points)
+D) Snow-covered peaks and icy landscapes. (1 point)
+Which food experience would you choose?
+A) Trying exotic and spicy dishes. (4 points)
+B) Sampling local delicacies and fine dining. (3 points)
+C) Enjoying fresh seafood by the coast. (2 points)
+D) Indulging in hearty winter meals. (1 point)
+How do you prefer to travel?
+A) Adventurously, off the beaten path. (4 points)
+B) Comfortably, with a touch of luxury. (3 points)
+C) Relaxed, taking my time to enjoy. (2 points)
+D) Efficiently, maximizing my itinerary. (1 point)
+What type of culture fascinates you the most?
+A) Indigenous and nature-based cultures. (4 points)
+B) Ancient history and architecture. (3 points)
+C) Coastal lifestyle and maritime traditions. (2 points)
+D) Winter sports and alpine culture. (1 point)
+How do you feel about crowds?
+A) I love bustling, vibrant places. (4 points)
+B) I prefer a balanced mix of people. (3 points)
+C) I enjoy quieter, more secluded spots. (2 points)
+D) I thrive in peaceful, remote areas. (1 point)
+What’s your idea of a perfect day?
+A) Hiking through stunning landscapes. (4 points)
+B) Exploring historical landmarks. (3 points)
+C) Lounging on a beach with a good book. (2 points)
+D) Skiing down a mountain slope. (1 point)
+What kind of accommodation do you prefer?
+A) Cozy cabins in the woods. (4 points)
+B) Boutique hotels with character. (3 points)
+C) Beachfront resorts with views. (2 points)
+D) Chalets in the mountains. (1 point)
+What kind of transportation do you enjoy?
+A) Hiking and walking. (4 points)
+B) Sightseeing buses and guided tours. (3 points)
+C) Boating and sailing. (2 points)
+D) Snowmobiles and ski lifts. (1 point)
+What kind of adventure appeals to you?
+A) Wilderness exploration and camping. (4 points)
+B) City tours and cultural experiences. (3 points)
+C) Water sports and beach activities. (2 points)
+D) Winter sports and mountain hikes. (1 point)
+How important is nightlife in your travels?
+A) Very important; I love to party! (4 points)
+B) Somewhat important; I enjoy a good night out. (3 points)
+C) Not very important; I prefer quiet evenings. (2 points)
+D) Not at all; I enjoy the calm of the night. (1 point)
+What inspires your travel plans?
+A) Nature and outdoor activities. (4 points)
+B) Culture and history. (3 points)
+C) Relaxation and leisure. (2 points)
+D) Winter sports and adventures. (1 point)
+What do you want to learn on your travels?
+A) Survival skills in nature. (4 points)
+B) Historical events and local legends. (3 points)
+C) Culinary arts and local cuisine. (2 points)
+D) Ski techniques and winter survival. (1 point)
+How do you prefer to spend your evenings?
+A) Stargazing by a campfire. (4 points)
+B) Enjoying live music or a show. (3 points)
+C) Dining with ocean views. (2 points)
+D) Relaxing in a warm cabin with friends. (1 point)
+Results:
+15-25 points: Tropical Paradise
+Your ideal flight destination is a warm, sunny beach with crystal-clear waters, where relaxation and adventure await. You thrive in laid-back environments filled with sunshine!
+26-35 points: Cultural City Escape
+You are drawn to vibrant cities rich in history and culture. Exploring museums, trying local cuisines, and discovering hidden gems excite you the most!
+36-45 points: Mountain Retreat
+Your perfect destination involves breathtaking mountains and outdoor activities. You love exploring nature, hiking, and enjoying the serenity of the great outdoors.
+46-60 points: Winter Wonderland
+You feel most at home in a snowy landscape filled with opportunities for skiing, cozy chalets, and warm fires. You thrive in winter adventures and appreciate the beauty of snow-covered peaks.

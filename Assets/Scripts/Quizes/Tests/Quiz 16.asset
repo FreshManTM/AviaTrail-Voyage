@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2197013eb8d0617479d8f8bd898c69fa, type: 3}
+  m_Name: Quiz 16
+  m_EditorClassIdentifier: 
+  Image: {fileID: 21300000, guid: 92881b782c970ef42a16b051c9a1a7ee, type: 3}
+  File: {fileID: 4900000, guid: 8bfcb300f4c3e19458349eb020b793dc, type: 3}
