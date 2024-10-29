@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2197013eb8d0617479d8f8bd898c69fa, type: 3}
   m_Name: Quiz 23
   m_EditorClassIdentifier: 
-  Image: {fileID: 21300000, guid: bb0f8653dbaf5b74d87ef1c17c24ed04, type: 3}
+  Image: {fileID: 21300000, guid: 7fbda90a7bcef8147ad564b9f7099992, type: 3}
   File: {fileID: 4900000, guid: eea85920c0cb53a479df9097ef08dbf0, type: 3}

@@ -18105,10 +18105,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1612913043}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f529614cdb0b954aaea8c1efb826268, type: 3}
+  m_Script: {fileID: 11500000, guid: e62af61c3e1b60a418570714fb4e6b3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _defaultCountry: {fileID: 11400000, guid: ecfa36e610776f34ea4e511d1a38f047, type: 2}
+  _filePath: 
+  _playerData:
+    PlayerName: 
+    PlayerImage: {fileID: 0}
+    Chevrons: 0
+    PointRecord: 0
+    CurrentLevel: 0
+    LevelStars: 
+    SetCountry: {fileID: 0}
+    PurchasedCountries: []
 --- !u!4 &1612913045
 Transform:
   m_ObjectHideFlags: 0
