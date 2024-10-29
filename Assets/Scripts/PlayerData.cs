@@ -6,6 +6,8 @@ using UnityEngine;
 [Serializable]
 public class PlayerData 
 {
+    public string PlayerName;
+    public Sprite PlayerImage;
     public int Chevrons;
     public int PointRecord;
     public int CurrentLevel;

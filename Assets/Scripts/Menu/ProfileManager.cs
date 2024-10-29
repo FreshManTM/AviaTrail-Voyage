@@ -8,19 +8,48 @@ using TMPro;
 
 public class ProfileManager : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI panelUserName;
-    [SerializeField] private Image displayImage;
-    [SerializeField] private Image displayWelcomeImage;
+    [SerializeField] GameObject _firstTimePanel;
+    [SerializeField] TMP_InputField _nameField;
+    [SerializeField] TextMeshProUGUI[] _playerNameText;
+    [SerializeField] Image[] _defaultImages;
+    [SerializeField] Image[] _playerImage;
 
     private const string ImagePathKey = "SelectedImagePath";
+
+    PlayerData _data;
     void Start()
     {
-        if (PlayerPrefs.HasKey("PlayerName"))
+        _data = Saver.Instance.LoadInfo();
+        if (PlayerPrefs.HasKey("FirstTime"))
         {
-            panelUserName.text = PlayerPrefs.GetString("PlayerName");
+            foreach (var text in _playerNameText)
+            {
+                text.text = _data.PlayerName;
+            }
         }
+        else
+        {
+            _firstTimePanel.SetActive(true);
+        }
+
         LoadAvatar();
     }
+
+    public void ContinueButton()
+    {
+        if(_nameField.text != "")
+        {
+            _data.PlayerName = _nameField.text;
+            Saver.Instance.SaveInfo(_data);
+            foreach (var text in _playerNameText)
+            {
+                text.text = _data.PlayerName;
+            }
+            _firstTimePanel.SetActive(false);
+            PlayerPrefs.SetInt("FirstTime", 1);
+        }
+    }
+
     public void LoadAvatar()
     {
 
@@ -35,9 +64,12 @@ public class ProfileManager : MonoBehaviour
 
                     Sprite savedSprite = SpriteFromTexture2D(savedTexture);
 
-
-                    displayImage.sprite = savedSprite;
-                    displayWelcomeImage.sprite = savedSprite;
+                    for (int i = 0; i < _defaultImages.Length; i++)
+                    {
+                        _defaultImages[i].gameObject.SetActive(false);
+                        _playerImage[i].gameObject.SetActive(true);
+                        _playerImage[i].sprite = savedSprite;
+                    }
                     Debug.Log("Loaded saved image.");
                 }
             }
@@ -52,7 +84,7 @@ public class ProfileManager : MonoBehaviour
     {
         return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
     }
-    public void PickImage(int maxSize)
+    public void PickImage()
     {
         NativeGallery.Permission permission = NativeGallery.GetImageFromGallery((path) =>
         {
@@ -60,7 +92,7 @@ public class ProfileManager : MonoBehaviour
             if (path != null)
             {
 
-                Texture2D texture = NativeGallery.LoadImageAtPath(path, maxSize);
+                Texture2D texture = NativeGallery.LoadImageAtPath(path);
                 if (texture == null)
                 {
                     Debug.Log("Couldn't load texture from " + path);
@@ -70,11 +102,12 @@ public class ProfileManager : MonoBehaviour
 
                 Sprite newSprite = SpriteFromTexture2D(texture);
 
-
-                displayImage.sprite = newSprite;
-                displayWelcomeImage.sprite = newSprite;
-
-
+                for (int i = 0; i < _defaultImages.Length; i++)
+                {
+                    _defaultImages[i].gameObject.SetActive(false);
+                    _playerImage[i].gameObject.SetActive(true);
+                    _playerImage[i].sprite = newSprite;
+                }
                 PlayerPrefs.SetString(ImagePathKey, path);
                 PlayerPrefs.Save();
 
