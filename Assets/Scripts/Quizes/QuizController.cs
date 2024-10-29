@@ -30,7 +30,6 @@ public class QuizController : MonoBehaviour
     {
         _quiz = quiz;
         _questionNum = 0;
-        print("Results: " + _quiz.Results.Count);
 
         //foreach(var q in _quiz.Questions)
         //{
@@ -68,7 +67,6 @@ public class QuizController : MonoBehaviour
     {
         foreach (var result in _quiz.Results)
         {
-            print($"{_score} - {result.MinPoints}:{result.MaxPoints}");
             if(_score >= result.MinPoints && _score <= result.MaxPoints)
             {
                 return result.Description;

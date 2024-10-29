@@ -40,7 +40,7 @@ public class QuizLoader : MonoBehaviour
                 }
 
                 // Start of a new question
-                if (line.EndsWith("?"))
+                if (line.EndsWith("?") || line.EndsWith("..."))
                 {
                     // Add the previous question to the quiz list if it exists
                     if (currentQuestion != null)
