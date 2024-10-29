@@ -38,10 +38,6 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    public void AddImage()
-    {
-        
-    }
     public void ToggleAnimButton(Animator animator)
     {
         if (animator.GetBool("On"))
